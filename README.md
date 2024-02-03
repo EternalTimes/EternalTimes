@@ -12,5 +12,3 @@
 
 <br />
 
-
-![javaw---2024-02-03-13-55-11-980.png](https://pic.tiramisucat.top/images/2024/02/03/javaw---2024-02-03-13-55-11-980.png)
