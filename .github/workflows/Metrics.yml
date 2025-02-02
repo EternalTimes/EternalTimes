@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Blog Github Stats
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: eternaltimes/metrics@fork
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics-calendar.svg
@@ -23,7 +23,7 @@ jobs:
 
       - name: Readme General
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: eternaltimes/metrics@fork
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: general.svg
